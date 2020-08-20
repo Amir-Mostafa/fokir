@@ -1,0 +1,943 @@
+
+body
+{
+    padding:0px;
+    margin: 0px;
+    font-family: "segoe ui light";
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+.clr
+{
+    clear: both;
+}
+
+/* nav bar section  */
+
+.nav-bar ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.nav-bar ul li
+{
+    display: inline;
+    padding-left: 20px;
+    box-sizing: border-box;
+    
+}
+.nav-bar 
+{
+    background-color: transparent;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+    width: 80%;
+    z-index: 99999;
+    height: auto;
+}
+.nav-bar .logo
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.nav-bar .links
+{
+    float: left;
+    width: 80%;
+    text-align: right;
+    
+}
+.nav-bar a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+.nav-bar  .active
+{
+    color: #ff305b;
+}
+.logo a
+{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ff305b;
+}
+.links a:hover
+{
+    color: #ff305b;   
+}
+
+/* end nav bar section  */
+
+
+
+ /* start home section  */
+.home
+{
+    background-image: url(img/slider/slider-01.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+
+    
+
+}
+.over
+{
+    background-color:black;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    
+    
+
+}
+.over .content
+{
+    color: #fff;
+    /* position: absolute;
+    top: 300px;
+    left: 550px; */
+    height: 10px;
+    text-align: center;
+    height: 100%;
+    
+    padding-top: 20%;
+    box-sizing: border-box;
+}
+.over .content h1
+{
+    font-size: 70px;
+    color: #ff305b;
+    margin: 0;
+}
+.over .cc
+{
+    
+
+}
+ /* end home section  */
+
+
+
+/* start about section */
+.about
+{
+    margin-top:  100px;
+    padding-bottom:  100px;
+    overflow: hidden;
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+}
+.about .image
+{
+    width: 35%;
+    float: left;
+    border:7px solid black;
+    box-sizing: border-box;
+    
+}
+.about .inf
+{
+    width: 65%;
+    float: left;
+    padding-left: 80px;
+    box-sizing: border-box;
+    
+}
+.about .inf button:hover
+{
+    background-color: red;
+    cursor: pointer;
+}
+.about .image .box
+{
+    
+    position: relative;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+    
+}
+.box .cover{
+    width: 100%;   
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: black;
+    opacity: 0.6;
+
+    transition: all 0.5s;
+    
+}
+.about .image:hover .box .cover
+{
+
+    top:0%;
+}
+.about .image img
+{
+    width: 100%;
+}
+.container_about
+{
+    width: 70%;
+    margin: auto;
+}
+.about h3
+{
+    font-size: 30px;
+    border-left: 4px solid #ff305b ;
+    padding: 0px;
+    padding-left: 5px;
+}
+.about p{
+    padding-bottom: 30px;
+    border-bottom: 2px dotted rgb(190, 189, 189);
+
+}
+.about span
+{
+    font-weight: bolder;
+    padding-right: 2px;
+}
+.about ul
+{
+    margin:0;
+    padding: 0px;
+    padding-bottom: 40px;
+}
+.about ul li
+{
+    width: 50%;
+    list-style: none;
+    float: left;
+    margin-bottom: 15px;
+    
+    
+}
+.about button
+{
+    background-color: #ff305b;
+    color: #fff;
+    border: none;
+    padding: 7px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+/* end about section */
+
+
+/* start services section  */
+
+.services
+{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+
+}
+ .small-line
+{
+    width: 75px;
+    height: 0.5px;
+    background-color: #ff305b;
+    margin: 2px auto;
+    
+}
+ .big-line
+{
+    width: 150px;
+    height: 2px;
+    background-color: #ff305b;
+    margin: 0px auto;
+}
+.services h2
+{
+   font-size: 40px;
+   margin-bottom: 5px;
+}
+.services .all
+{
+    overflow: auto;
+}
+.services .track
+{
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    padding:30px;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+.services .track img
+{
+    width: 30px ;
+    height: 30px;
+    
+    transition: all 1s;
+
+}
+
+.services .track
+{
+    
+}
+.services .track:hover
+{
+    background-color: #fff;
+    box-shadow: 5px 10px 20px gray ;
+}
+
+.services .track:hover img
+{
+    transform: scale(1.2);
+    
+}
+/* end services section  */
+
+
+
+/* start section portfolio  */
+
+.portfolio 
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.portfolio h2
+{
+    font-size: 40px;
+}
+.portfolio a
+{
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    
+}
+.portfolio .departs
+{
+    margin: 40px 0px;
+}
+.portfolio .departs .active{
+    color: #ff305b;
+}
+
+.portfolio .section
+{
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px;
+}
+.portfolio .section img
+{
+    width: 100%;
+    
+
+}
+.portfolio .section .cover
+{
+    background-color: rgba(3,3,3,0.5);
+    width: 90%;
+    height: 88%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    opacity: 0;
+    
+}
+
+.portfolio .section:hover .cover{
+
+    opacity: 0.5;
+
+} 
+/* end section portfolio  */
+
+
+/* start section statistic */
+
+.statistic
+{
+    background-color: #f1f1f1;
+    overflow: auto;
+    margin: 50px 0px;
+}
+.statistic .numbers
+{
+    float: left;
+    width: 25%;
+    height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 75px 0px;
+}
+/* end section statistic */
+
+
+/* start section feedback */
+.feedback 
+{
+    text-align: center;
+    margin: auto;
+    
+
+}
+.feedback .info
+{
+    width: 70%;
+    
+    float: left;
+    text-align: left;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.feedback .image
+{
+    width: 20%;
+    float: left;
+    
+}
+.container_feedback
+{
+    width: 60%;
+    margin:auto;
+    overflow: auto;
+    
+    padding:100px;
+    
+    
+
+}
+.container_feedback .item
+
+{
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.testimonial ::after
+{
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 200px;
+    height: 200px;
+    background-color: #ff305b;
+    transform: rotate(45deg);
+}
+.feedback .testimonial
+{
+    background-color: #f1f1f1;
+    overflow: hidden;
+
+}
+.feedback a
+{
+    text-decoration: none;
+    color: gray;
+}
+.feedback .image img
+{
+    border-radius: 50%;
+    width: 100%;
+    
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+    position: relative;
+    
+    z-index: 999999;
+    
+}
+.feedback h2
+{
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+/* end section feedback */
+
+
+
+/* start blog section  */
+
+.blog
+{
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.blog .blog-items
+{
+    overflow: auto;
+}
+.blog .item
+{
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    padding:20px;
+    text-align: left;
+    
+
+}
+.blog .item img,.blog iframe
+{
+    width: 100%;
+    height: 200px;
+}
+
+.blog .item a
+{
+    text-decoration: none;
+    color: #333;
+
+}
+.blog .content
+{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.blog .item a:hover
+{
+   color: #ff305b;
+    
+}
+
+/* end blog section  */
+
+/* start section contact us  */
+.contact_us
+{
+    width: 50%;
+    margin:auto;
+    overflow: auto;
+}
+.contact_us form
+{
+    margin-top: 50px;
+}
+.contact_us .name ,.contact_us .mail
+{
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+    padding-right :20px;
+    box-sizing: border-box;
+    text-align: left;
+    
+}
+.contact_us .sub
+
+{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.contact_us input
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border:1px solid gray;
+    padding: 5px;
+    
+}
+
+.contact_us .mail
+{
+   text-align: right;
+   box-sizing: border-box;
+}
+.contact_us .sub
+{
+    width: 100%;
+}
+.contact_us textarea
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    resize: none;
+    padding: 5px;
+}
+.contact_us button
+{
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color: #ff305b;
+    color: #fff;
+    margin-top: 20px;
+    border:none;
+    font-size: 16px;
+}
+.contact_us h2
+{
+    text-align: center;
+}
+/* end section contact us  */
+
+
+
+/*srart section footer*/
+
+
+.footer
+{
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding:50px 0px;
+}
+.footer span{
+    color: #ff305b;
+}
+.footer img
+{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* end section footer  */
+
+
+
+
+/* start media query  */
+@media screen and (max-width:576px)
+{
+    .home .over
+    {
+        font-size: 15px;
+        padding-top: 40%;
+        box-sizing: border-box;
+        
+    }
+
+    .home .over h1
+    {
+        font-size: 30px;
+    }
+
+
+    /* /////////////// */
+    .about
+
+    {
+        overflow: hidden;   
+    }
+
+    .about .image
+    {
+        width: 100%;
+
+        
+    }
+    .about .inf
+    {
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+    }
+    .about ul li
+    {
+        width: 100%;
+    }
+    .about button
+    {
+        margin-bottom: 10px;
+    }
+
+
+    /* //////////////////////////////////////// */
+
+
+
+    /* sart services section  */
+    
+    .services .track
+    {
+        width: 100%;
+    }
+
+     /* end services section  */
+
+
+     /* start numbers section */
+
+     .statistic .numbers 
+     {
+        width: 100%;
+     }
+
+     /* end numbers section */
+
+
+     /* start portfolio section  */
+
+    .portfolio .section
+    {
+        width: 100%;
+
+    }
+
+    /* end portfolio section  */
+
+
+    /* srart blog section  */
+    .blog .item
+    {
+        width: 100%;
+    }
+
+    /* end blog section  */
+
+
+    .contact_us .name
+    {
+        width: 100%;
+    }
+    .contact_us .mail
+    {
+        width: 100%;
+    }
+    .container_feedback
+    {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px)
+{
+
+    .home .over
+    {
+        font-size: 20px;
+        width: 100%;
+        padding-top: 20%;
+        box-sizing: border-box;
+    }
+
+    .home .over h1
+    {
+        font-size: 40px;
+    }
+
+
+
+    /*  start about section  */
+
+    .about
+
+    {
+        overflow: hidden;   
+    }
+
+    .about .image
+    {
+        width: 100%;
+        
+
+        
+    }
+    .about .inf
+    {
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+    }
+    .about ul li
+    {
+        width: 100%;
+    }
+    
+
+    /* end about section  */
+
+
+     /* sart services section  */
+    
+     .services .track
+     {
+         width: 100%;
+     }
+ 
+      /* end services section  */
+
+
+      /* start portfolio section  */
+
+    .portfolio .section
+    {
+        width: 100%;
+
+    }
+
+         /* start numbers section */
+
+         .statistic .numbers 
+         {
+            width: 100%;
+         }
+    
+         /* end numbers section */
+
+    /* end portfolio section  */
+
+
+    /* srart blog section  */
+    .blog .item
+    {
+        width: 100%;
+    }
+
+    /* end blog section  */
+    .container_feedback
+    {
+        width: 80%;
+    }
+    .container_feedback
+    {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:992px)
+{
+    .home .over
+    {
+        font-size: 20px;
+        width: 100%;
+        padding-top: 20%;
+        box-sizing: border-box;
+    }
+
+    .home .over h1
+    {
+        font-size: 40px;
+    }
+
+
+
+    /*  start about section  */
+
+    .about
+
+    {
+        overflow: hidden;   
+    }
+
+    .about .image
+    {
+        width: 100%;
+        
+
+        
+    }
+    .about .inf
+    {
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+    }
+    .about ul li
+    {
+        width: 100%;
+    }
+    
+
+    /* end about section  */
+
+
+     /* sart services section  */
+    
+     .services .track
+     {
+         width: 100%;
+     }
+ 
+      /* end services section  */
+
+           /* start numbers section */
+
+     .statistic .numbers 
+     {
+        width: 100%;
+     }
+
+     /* end numbers section */
+
+      /* start portfolio section  */
+
+    .portfolio .section
+    {
+        width: 100%;
+
+    }
+
+    /* end portfolio section  */
+
+
+    /* srart blog section  */
+    .blog .item
+    {
+        width: 100%;
+    }
+
+    /* end blog section  */
+
+    .container_feedback
+    {
+        width: 80%;
+    }
+    .container_feedback
+    {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+@media screen and(min-width:993px)
+{
+    
+}
+
+
+/* end media query  */
